@@ -9,7 +9,9 @@ const Skills = () => {
     return (
         <>
             <Header>
-                <div className='title'>Mindset e Habilidades</div>
+                <div className='skills-title'>
+                   Mindset e Habilidades
+                </div>
                 <div className='divider'></div>
             </Header>
 

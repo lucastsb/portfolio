@@ -177,6 +177,11 @@ h4{
 
 
 /* Skills */
+.skills-title{
+  font-family: 'Squada One', sans-serif;
+  font-size: 2.5em;
+  margin-top: 1%;
+}
 .skills-content{
   display: flex;
   width: 80%;
@@ -429,6 +434,13 @@ justify-content: center;
   .edit{
     display: none;
   }
+}
 
+@media (max-width: 408px){
+  .skills-title{
+    margin-top: 10px;
+    font-size: 2.2em;
+    font-family: 'Squada One';
+  }
 }
 
