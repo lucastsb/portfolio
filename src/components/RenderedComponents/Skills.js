@@ -29,12 +29,18 @@ const Skills = () => {
                          <p>
                          Movido por uma curiosidade incessante e um profundo desejo
                          de gerar impacto real na vida das pessoas, resolvendo problemas,
-                         trazendo mais comodidade, entretenimento, aproximar pessoas, espalhar conhecimento
-                         e tudo mais que o mundo da tecnologia tem pra oferecer. Assim eu comecei a me aventurar
-                         na programação. <br/><br/>Tendo passado por todas as etapas iniciais, de fundamentação, construindo desde simples
-                         calculadoras e conversores de moeda, utilizando HTML/CSS e Javascript, até o ponto
-                         de conseguir desenvolver coisas mais complexas como um sistema de cadastro (CRUD) utilizando ReactJS,
-                         VueJS ou Angular, optando por focar um pouco mais no ReactJS (no qual todo esse site foi construído), mantendo uma base firme de conhecimento de outras tecnologias.
+                         trazendo mais facilidade e praticidade.<p className='small-devices'>entretenimento, 
+                         aproximar pessoas, espalhar conhecimento
+                         e tudo mais que o mundo da tecnologia tem 
+                         pra oferecer.></p> Assim eu comecei a me aventurar
+                         na programação. <br/><br/>Tendo passado por todas 
+                         as etapas iniciais, de fundamentação, construindo desde simples
+                         calculadoras e conversores de moeda, com HTML/CSS/Javascript, 
+                         até desenvolver coisas mais complexas 
+                         como um sistema de cadastro (CRUD), Single Page Aplications, etc. Utilizando ReactJS,
+                         VueJS ou Angular, optando por focar um pouco mais no 
+                         ReactJS (no qual todo esse site foi construído), 
+                         mantendo uma base firme de conhecimento de outras tecnologias.
                          <br/><br/>
                          Além disso, posso eu mesmo criar/editar utilizando ferramentas como Photoshop.<br/><br/>
                          E ser capaz de me comunicar fluentemente em inglês e com um nível intermediário de mandarim!<br/><br/>

@@ -396,6 +396,7 @@ justify-content: center;
     font-weight: bold;
     font-size: 1.3em;
   }
+
 }
 
 @media (max-width: 425px){
@@ -429,11 +430,11 @@ justify-content: center;
     flex-direction: row;
   }
   .social-icon{margin: 20%;}
-  
   .message-warning{margin-top: 50%;}
   .edit{
     display: none;
   }
+  
 }
 
 @media (max-width: 408px){
@@ -444,3 +445,21 @@ justify-content: center;
   }
 }
 
+@media(max-width: 320px){
+  .title{
+    font-size: 2.1em;
+  }
+  .skills-title{
+    font-size: 1.8em;
+  }
+  .divider{
+    margin-bottom: 5%;
+  }
+  .small-devices{
+    display: none;
+  }
+  .social-contact{
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+}
