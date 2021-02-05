@@ -15,12 +15,12 @@ const ExternalLink = () => {
                 </a>
             </div>
             <div className='external-link'>
-                <a href='https://github.com' rel='noreferrer' target='_blank'>
+                <a href='https://github.com/lucastsb' rel='noreferrer' target='_blank'>
                     <FontAwesomeIcon className='icon'  icon={faGithub}></FontAwesomeIcon>
                 </a>
             </div>
             <div className='external-link'>
-                <a href='https://linkedin.com' rel='noreferrer' target='_blank'>
+                <a href='linkedin.com/in/lucas-tabosa-7621731b1' rel='noreferrer' target='_blank'>
                     <FontAwesomeIcon className='icon'  icon={faLinkedin}></FontAwesomeIcon>
                 </a>
             </div>
