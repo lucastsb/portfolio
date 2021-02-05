@@ -470,6 +470,9 @@ justify-content: center;
   .modal-close{
     margin-bottom: 40%;
   }
+.small-devices{
+  display: none;
+}
   
 }
 
