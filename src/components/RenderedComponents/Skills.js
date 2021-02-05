@@ -32,7 +32,7 @@ const Skills = () => {
                          trazendo mais facilidade e praticidade.<p className='small-devices'>entretenimento, 
                          aproximar pessoas, espalhar conhecimento
                          e tudo mais que o mundo da tecnologia tem 
-                         pra oferecer.></p> Assim eu comecei a me aventurar
+                         pra oferecer</p> Assim eu comecei a me aventurar
                          na programação. <br/><br/>Tendo passado por todas 
                          as etapas iniciais, de fundamentação, construindo desde simples
                          calculadoras e conversores de moeda, com HTML/CSS/Javascript, 
