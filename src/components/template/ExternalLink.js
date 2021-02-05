@@ -20,7 +20,7 @@ const ExternalLink = () => {
                 </a>
             </div>
             <div className='external-link'>
-                <a href='linkedin.com/in/lucas-tabosa-7621731b1' rel='noreferrer' target='_blank'>
+                <a href='https://linkedin.com/in/lucas-tabosa-7621731b1' rel='noreferrer' target='_blank'>
                     <FontAwesomeIcon className='icon'  icon={faLinkedin}></FontAwesomeIcon>
                 </a>
             </div>
