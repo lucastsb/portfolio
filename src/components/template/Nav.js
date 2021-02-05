@@ -15,7 +15,7 @@ const Nav = () => {
                         <h3 className='a-title'>Lucas Tabosa</h3>
                     </div>
                     <div className='author-subtitle'>
-                        <p className='a-subtitle'>Desenvolvedor Web</p>
+                        <p className='a-subtitle'>Desenvolvedor Font-End</p>
                     </div>
                 </div>
 
