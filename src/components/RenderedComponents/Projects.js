@@ -108,7 +108,16 @@ const Projects = () => {
                     </div>
                 </div>
             </Content>
-            <div className='proj-warning'><h4> Os projetos acima ainda não foram adaptados para dispositivos móveis, aconselho visualizar em um desktop/notebook</h4></div>
+
+            <div className='proj-text-full'>
+                <h4> Estes são apenas alguns projetos simples feitos durante o processo de aprendizado
+                     de HTML, CSS e Javascript, além do uso de React, no qual este site todo foi feito.
+                </h4>
+            </div>
+
+            <div className='proj-warning'><h4> Estes são apenas alguns projetos simples feitos durante o processo de aprendizado
+                     de HTML, CSS e Javascript, além do uso de React, no qual este site todo foi feito.
+                     Os mesmos ainda não foram adaptados para dispositivos móveis, aconselho visualizar em um desktop/notebook</h4></div>
             {/* <Content >
                 <div className='proj-content'>
                     <div class='proj-pic-container'>
