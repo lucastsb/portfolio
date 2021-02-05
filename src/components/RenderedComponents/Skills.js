@@ -29,7 +29,7 @@ const Skills = () => {
                          <p>
                          Movido por uma curiosidade incessante e um profundo desejo
                          de gerar impacto real na vida das pessoas, resolvendo problemas,
-                         trazendo mais facilidade e praticidade.<p className='small-devices'>entretenimento, 
+                         trazendo mais facilidade e praticidade<p className='small-devices'>entretenimento, 
                          aproximar pessoas, espalhar conhecimento
                          e tudo mais que o mundo da tecnologia tem 
                          pra oferecer</p> Assim eu comecei a me aventurar

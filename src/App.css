@@ -106,6 +106,14 @@ h4{
   font-size: 3em;
   color: #fff;
 }
+.proj-warning{
+  display: none;
+  margin-top: 5%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* end of flex containers */
 
 
@@ -229,8 +237,9 @@ h4{
   display: flex;
   width: 80%;
   height: auto;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: row;
-  justify-content: space-between;
 }
 .proj-pic-container{
   display: flex;
@@ -238,8 +247,12 @@ h4{
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 25%;
-  margin: 0px 10px;
+  width: 55%;
+  margin: 1% 10px;
+}
+.proj-pic-title{
+  margin-top: 5%;
+  font-size: 1.2em;
 }
 .project-img{
   border: 1px solid rgb(158, 158, 158, .5);
@@ -429,10 +442,18 @@ justify-content: center;
   .modal-close{
     margin-bottom: 25%;
   }
-
+  .proj-warning{
+    display: flex;
+    margin-top: 5%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 425px){
+  
   .nav-container{
     border-radius: 0px;
     justify-content: space-between;
@@ -445,7 +466,7 @@ justify-content: center;
     display:none;
   }
   .main-container{
-    width: 100vw;
+    width: 100%;
     height: 90%;
   }
   p{font-size: .8em;}
@@ -473,6 +494,26 @@ justify-content: center;
 .small-devices{
   display: none;
 }
+.proj-content{
+  flex-direction: column;
+}
+.proj-pic-title{
+  border: .1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.project-img{
+  display: none;
+}
+.proj-warning{
+  display: flex;
+  margin-top: 5%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   
 }
 
@@ -481,6 +522,14 @@ justify-content: center;
     margin-top: 10px;
     font-size: 2.2em;
     font-family: 'Squada One';
+  }
+  .proj-warning{
+    display: flex;
+    margin-top: 5%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -503,5 +552,13 @@ justify-content: center;
   }
   .modal-close{
     margin-bottom: 60%;
+  }
+  .proj-warning{
+    display: flex;
+    margin-top: 5%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
