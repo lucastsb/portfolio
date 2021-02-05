@@ -82,6 +82,29 @@ h4{
   justify-content: center;
   align-items: center;
 }
+.open-btn-modal{
+  background-color: transparent;
+  border: none;
+}
+.modal-menu{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(220, 20, 20, 0.781);
+}
+.modal-close{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 50%;
+  font-size: 3em;
+  color: #fff;
+}
 /* end of flex containers */
 
 
@@ -151,6 +174,9 @@ h4{
   text-emphasis-color: #fff;
 }
 .toggle-btn-container{
+  display: none;
+}
+.modal-btn-container{
   display: none;
 }
 /* end of Navigation */
@@ -396,6 +422,12 @@ justify-content: center;
     font-weight: bold;
     font-size: 1.3em;
   }
+  .modal-btn-container{
+    display: flex;
+  }
+  .modal-close{
+    margin-bottom: 25%;
+  }
 
 }
 
@@ -434,6 +466,9 @@ justify-content: center;
   .edit{
     display: none;
   }
+  .modal-close{
+    margin-bottom: 40%;
+  }
   
 }
 
@@ -461,5 +496,8 @@ justify-content: center;
   .social-contact{
     margin-left: 10%;
     margin-right: 0%;
+  }
+  .modal-close{
+    margin-bottom: 60%;
   }
 }

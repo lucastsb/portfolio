@@ -4,6 +4,7 @@ import About from '../src/components/RenderedComponents/About'
 import Skills from '../src/components/RenderedComponents/Skills'
 import Projects from '../src/components/RenderedComponents/Projects'
 import Contact from '../src/components/RenderedComponents/Contact'
+import ModalMenu from '../src/components/template/ModalMenu'
 
 const Routes = () => {
  
@@ -14,6 +15,7 @@ const Routes = () => {
             <Route path='/Contact' component={Contact}/>
             <Route path='/Skills' component={Skills}/>
             <Route path='/Projects' component={Projects}/>
+            <Route path='/ModalMenu' component={ModalMenu}/>
             <Redirect from='*' to='/'/>
         </Switch>
         

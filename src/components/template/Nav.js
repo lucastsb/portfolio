@@ -2,8 +2,8 @@ import React from 'react'
 import ProfilePic from './ProfilePic'
 import Menu from './Menu'
 import ExternalLink from './ExternalLink'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faBars} from '@fortawesome/free-solid-svg-icons'
+
+import Modal from './Modal'
 
 const Nav = () => {
     return (
@@ -20,11 +20,12 @@ const Nav = () => {
                 </div>
 
                 <ExternalLink/>
+                
                 <Menu/>
-
-                <div className='toggle-btn-container'>
-                    <FontAwesomeIcon className='bars' icon={faBars}></FontAwesomeIcon>
-                </div>
+                
+                <Modal/>
+                
+              
         </div>
     )
 }
