@@ -70,7 +70,7 @@ const Contact = () => {
                 <div className='message-warning'>
                     <h4> O serviço de mensagem ainda não foi implementado <p className='edit'>(este acima é apenas um modelo)</p>, 
                         fique a vontade para entrar em contato pelo instagram, whatsapp ou telegram<br/><br/>
-                        Obrigado, nos vemos por aí!
+                        <br/><br/>Nos vemos por aí!
                     </h4>
                 </div>
             </Content>

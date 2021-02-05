@@ -83,6 +83,7 @@ h4{
   align-items: center;
 }
 .open-btn-modal{
+  outline: none;
   background-color: transparent;
   border: none;
 }
@@ -94,7 +95,7 @@ h4{
   width: 100%;
   left: 0;
   top: 0;
-  background: rgba(220, 20, 20, 0.9);
+  background: rgba(220, 20, 20, 0.95);
 }
 .modal-close{
   display: flex;
