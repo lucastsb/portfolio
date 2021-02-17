@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
 import proj1Thumb from '../assets/images/thumbs/an-thumb.png'
 import proj2Thumb from '../assets/images/thumbs/poke-thumb.png'
+import proj3Thumb from '../assets/images/thumbs/weather-app-thumb.png'
 import proj1Full from '../assets/images/projs/react-an-crud.png'
 import proj2Full from '../assets/images/projs/pokedex.png'
+import proj3Full from '../assets/images/fulls/weather-app-full.png'
 
 
 
@@ -61,27 +63,28 @@ const Main = () => {
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href={proj1Full} class="image fit thumb"><img src={proj1Thumb} alt="" /></a>
-								<h3>Sistema de Gerenciamento</h3>
+								<h3>Sistema de Gerenciamento - <a href='https://lucastsb.github.io/react-crud-frontend/index.html#/' target='_blank' rel='noreferrer'>  
+										 Clique Aqui
+									</a>
+								</h3>
 								<p>SPA crud simples, com navegação funcionando e pronto para integração com banco de dados</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href={proj2Full} class="image fit thumb"><img src={proj2Thumb} alt="" /></a>
-								<h3>Pokédex em React</h3>
-								<p>Pokédex da primeira geração de pokémons, cards com informações consultadas de API</p>
-							</article>
-
-							{/* a medida q for adicionando projetos relevantes, basta duplicar e alterar as imagens */}
-
-							{/* <article class="col-6 col-12-xsmall work-item">
-								<a href={proj2Full} class="image fit thumb"><img src={proj2Thumb} alt="" /></a>
-								<h3>Pokédex em React</h3>
+								<h3>Pokédex em React - <a href='https://lucastsb.github.io/pokedex/index.html' target='_blank' rel='noreferrer'>  
+										 Clique Aqui
+									</a></h3>
 								<p>Pokédex da primeira geração de pokémons, cards com informações consultadas de API</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href={proj2Full} class="image fit thumb"><img src={proj2Thumb} alt="" /></a>
-								<h3>Pokédex em React</h3>
-								<p>Pokédex da primeira geração de pokémons, cards com informações consultadas de API</p>
-							</article> */}
+								<a href={proj3Full} class="image fit thumb"><img src={proj3Thumb} alt="" /></a>
+								<h3>Pesquisa de Temperatura no Mundo - <a href='https://react-weather-app-eybbpslue.vercel.app' target='_blank' rel='noreferrer'>  
+										 Clique Aqui
+									</a></h3>
+								<p>App simples pra saber a temperatura em várias cidades ao redor do mundo</p>
+							</article>
+
+							{/* a medida q for adicionando projetos relevantes, basta duplicar e alterar as imagens */}
 							
 						</div>
 						<ul class="actions">
